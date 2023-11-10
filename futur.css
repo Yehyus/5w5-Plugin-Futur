@@ -1,17 +1,11 @@
 .futur {
-    h1 {
+    & h1 {
         font-size: 25px;
         color: #C4E7D4;
         font-family: 'Work Sans', sans-serif;
     }
 
-    h6 {
-        font-size: 15px;
-        font-family: 'Work Sans', sans-serif;
-        margin: 0 auto;
-    }
-
-    p {
+    & p {
         font-size: 9px;
     }
 
@@ -21,187 +15,137 @@
         justify-content: space-around;
         margin-top: 20px;
         margin-bottom: 10vh;
-    }
+        
+        .article {
 
-    .futur2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin-top: 50px;
-        margin-bottom: 5vh;
-    }
+            .animation-rectangle {
+            top: auto;
+            right: 109vw;
+            }
 
-    .info_ate, .info_programme {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        text-align: left;
-        width: 40vw;
-        margin-left: 11vw;
-    }
+            .animation-rectangle2 {
+                position: absolute;
+                right: 10vw;
 
-    .info_étude, .info_entreprise {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        text-align: left;
-        width: 40vw;
-        margin-right: 11vw; 
-        margin-left: auto;
-    }
+                    .rectangle-deco1 {
+                        height: 15rem;
+                        width: 7.5rem;
+                        border: solid 2px #C4E7D4;
+                        position: absolute;
+                    }
+        
+                    .rectangle-deco2 {
+                        height: 15rem;
+                        width: 7.5rem;
+                        border: solid 2px #C4E7D4;
+                        opacity: 80%;
+                        position: absolute;
+                        margin-top: 5px;
+                        margin-left: 5px;
+                    }
+        
+                    .rectangle-deco3 {
+                        height: 15rem;
+                        width: 7.5rem;
+                        border: solid 2px #C4E7D4;
+                        opacity: 60%;
+                        position: absolute;
+                        margin-top: 10px;
+                        margin-left: 10px;
+                    }
+        
+                    .rectangle-deco4 {
+                        height: 15rem;
+                        width: 7.5rem;
+                        border: solid 2px #C4E7D4;
+                        opacity: 40%;
+                        position: absolute;
+                        margin-top: 15px;
+                        margin-left: 15px;
+                    }
+        
+                    .rectangle-deco5 {
+                        height: 15rem;
+                        width: 7.5rem;
+                        border: solid 2px #C4E7D4;
+                        opacity: 20%;
+                        position: absolute;
+                        margin-top: 20px;
+                        margin-left: 20px;
+                    }
+            }
 
-    .animation-rectangle {
-       top: auto;
-       position: absolute;
-       right: 109vw;
-    }
+            
 
-    .animation-rectangle2 {
-        position: absolute;
-        right: 10vw;
-    }
+            .animation-cube {
+                display: flex;
+                justify-content: center;
+                top: 20px;
+            }
 
-    .rectangle-deco1 {
-        height: 15rem;
-        width: 7.5rem;
-        border: solid 2px #C4E7D4;
-        position: absolute;
-    }
+            .cube1 {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+            }
 
-    .rectangle-deco2 {
-        height: 15rem;
-        width: 7.5rem;
-        border: solid 2px #C4E7D4;
-        opacity: 80%;
-        position: absolute;
-        margin-top: 5px;
-        margin-left: 5px;
-    }
+            .cube2 {
+                display: flex;
+                flex-direction: column;
+            }
 
-    .rectangle-deco3 {
-        height: 15rem;
-        width: 7.5rem;
-        border: solid 2px #C4E7D4;
-        opacity: 60%;
-        position: absolute;
-        margin-top: 10px;
-        margin-left: 10px;
-    }
+            .animation-cube {
+                display: flex;
+                margin: auto;
+            }
 
-    .rectangle-deco4 {
-        height: 15rem;
-        width: 7.5rem;
-        border: solid 2px #C4E7D4;
-        opacity: 40%;
-        position: absolute;
-        margin-top: 15px;
-        margin-left: 15px;
-    }
+            .cube-deco1 {
+                height: 5rem;
+                width: 5rem;
+                border: solid 1px #2274A5;
+            }
 
-    .rectangle-deco5 {
-        height: 15rem;
-        width: 7.5rem;
-        border: solid 2px #C4E7D4;
-        opacity: 20%;
-        position: absolute;
-        margin-top: 20px;
-        margin-left: 20px;
-    }
+            .cube-deco2 {
+                height: 2.5rem;
+                width: 2.5rem;
+                border: solid 1px #2274A5;
+                margin-top: 10px;
+            }
 
-    .animation-cube {
-        display: flex;
-        justify-content: center;
-        top: 20px;
-    }
+            .cube-deco3 {
+                height: 2.5rem;
+                width: 2.5rem;
+                border: solid 1px #2274A5;
+                margin-left: 10px;
+            }
 
-    .cube1 {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-    }
-
-    .cube2 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .animation-cube {
-        display: flex;
-        margin: auto;
-    }
-
-    .cube-deco1 {
-        height: 5rem;
-        width: 5rem;
-        border: solid 1px #2274A5;
-    }
-
-    .cube-deco2 {
-        height: 2.5rem;
-        width: 2.5rem;
-        border: solid 1px #2274A5;
-        margin-top: 10px;
-    }
-
-    .cube-deco3 {
-        height: 2.5rem;
-        width: 2.5rem;
-        border: solid 1px #2274A5;
-        margin-left: 10px;
-    }
-
-    .cube-deco4 {
-        height: 5rem;
-        width: 5rem;
-        border: solid 1px #2274A5;
-        margin-top: 10px;
-        margin-left: 10px;
+            .cube-deco4 {
+                height: 5rem;
+                width: 5rem;
+                border: solid 1px #2274A5;
+                margin-top: 10px;
+                margin-left: 10px;
+            }
+        }
     }
 }
 
-@media screen and (min-width:480) and (max-width:767px) {
-    .futur {
-        .cube-deco1 {
-            height: 15rem;
-            width: 15rem;
-            border: solid 1px #2274A5;
-        }
-        
-        .cube-deco2 {
-            height: 7.5rem;
-            width: 7.5rem;
-            border: solid 1px #2274A5;
-            margin-top: 20px;
-        }
-        
-        .cube-deco3 {
-            height: 7.5rem;
-            width: 7.5rem;
-            border: solid 1px #2274A5;
-            margin-left: 20px;
-        }
-        
-        .cube-deco4 {
-            height: 15rem;
-            width: 15rem;
-            border: solid 1px #2274A5;
-            margin-top: 20px;
-            margin-left: 20px;
-        }   
-    }
-}
 
 @media screen and (min-width:768px) {
     .futur {
-        h1, h6 {
+        & h2 {
             margin: 10px 0;
-        }
-
-        p {
             font-size: 24px;
         }
 
-        background-color: red;
+        .wp-block-heading{
+            font-size: 40px;
+            color: #C4E7D4;
+        }
+
+        & p {
+            font-size: 1rem;
+        }
 
         .futur1 {
             display: flex;
@@ -213,216 +157,118 @@
             .article {
                 display: flex;
                 flex-direction: column;
+                justify-content: space-around;
                 margin-bottom: 30vh;
 
-                .animation-rectangle {
-                    top: auto;
-                    position: absolute;
-                    right: 109vw;
+                    .animation-rectangle {
+                        top: auto;
+                        position: absolute;
+                        right: 112vw;
 
-                    .rectangle-deco1 {
-                        height: 40rem;
-                        width: 20rem;
-                        border: solid 5px #C4E7D4;
-                        position: absolute;
+                        .rectangle-deco1 {
+                            height: 40rem;
+                            width: 20rem;
+                            border: solid 5px #C4E7D4;
+                            position: absolute;
+                        }
+                        
+                        .rectangle-deco2 {
+                            height: 40rem;
+                            width: 20rem;
+                            border: solid 5px #C4E7D4;
+                            opacity: 80%;
+                            position: absolute;
+                            margin-top: 10px;
+                            margin-left: 10px;
+                        }
+                        
+                        .rectangle-deco3 {
+                            height: 40rem;
+                            width: 20rem;
+                            border: solid 5px #C4E7D4;
+                            opacity: 60%;
+                            position: absolute;
+                            margin-top: 20px;
+                            margin-left: 20px;
+                        }
+                        
+                        .rectangle-deco4 {
+                            height: 40rem;
+                            width: 20rem;
+                            border: solid 5px #C4E7D4;
+                            opacity: 40%;
+                            position: absolute;
+                            margin-top: 30px;
+                            margin-left: 30px;
+                        }
+                        
+                        .rectangle-deco5 {
+                            height: 40rem;
+                            width: 20rem;
+                            border: solid 5px #C4E7D4;
+                            opacity: 20%;
+                            position: absolute;
+                            margin-top: 40px;
+                            margin-left: 40px;
+                        }
+                    }
+
+                .animation-cube {
+                    position: relative;
+                    display: flex;
+                    margin-top: 60px;
+                    left: 25vw;
+
+                    .cube1 {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-end;
                     }
                     
-                    .rectangle-deco2 {
-                        height: 40rem;
-                        width: 20rem;
-                        border: solid 5px #C4E7D4;
-                        opacity: 80%;
-                        position: absolute;
-                        margin-top: 10px;
-                        margin-left: 10px;
+                    .cube2 {
+                        display: flex;
+                        flex-direction: column;
                     }
                     
-                    .rectangle-deco3 {
-                        height: 40rem;
-                        width: 20rem;
-                        border: solid 5px #C4E7D4;
-                        opacity: 60%;
-                        position: absolute;
+                    .cube-deco1 {
+                        height: 25rem;
+                        width: 25rem;
+                        border: solid 1px #2274A5;
+                    }
+                    
+                    .cube-deco2 {
+                        height: 12.5rem;
+                        width: 12.5rem;
+                        border: solid 1px #2274A5;
                         margin-top: 20px;
+                    }
+                    
+                    .cube-deco3 {
+                        height: 12.5rem;
+                        width: 12.5rem;
+                        border: solid 1px #2274A5;
                         margin-left: 20px;
                     }
                     
-                    .rectangle-deco4 {
-                        height: 40rem;
-                        width: 20rem;
-                        border: solid 5px #C4E7D4;
-                        opacity: 40%;
-                        position: absolute;
-                        margin-top: 30px;
-                        margin-left: 30px;
+                    .cube-deco4 {
+                        height: 25rem;
+                        width: 25rem;
+                        border: solid 1px #2274A5;
+                        margin-top: 20px;
+                        margin-left: 20px;
                     }
-                    
-                    .rectangle-deco5 {
-                        height: 40rem;
-                        width: 20rem;
-                        border: solid 5px #C4E7D4;
-                        opacity: 20%;
-                        position: absolute;
-                        margin-top: 40px;
-                        margin-left: 40px;
-                    }
-                }
-                .cube1 {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-end;
-                }
-                
-                .cube2 {
-                    display: flex;
-                    flex-direction: column;
-                }
-                
-                .animation-cube {
-                    display: flex;
-                    margin: auto;
-                }
-                
-                .cube-deco1 {
-                    height: 25rem;
-                    width: 25rem;
-                    border: solid 1px #2274A5;
-                }
-                
-                .cube-deco2 {
-                    height: 12.5rem;
-                    width: 12.5rem;
-                    border: solid 1px #2274A5;
-                    margin-top: 20px;
-                }
-                
-                .cube-deco3 {
-                    height: 12.5rem;
-                    width: 12.5rem;
-                    border: solid 1px #2274A5;
-                    margin-left: 20px;
-                }
-                
-                .cube-deco4 {
-                    height: 25rem;
-                    width: 25rem;
-                    border: solid 1px #2274A5;
-                    margin-top: 20px;
-                    margin-left: 20px;
                 }
             }
 
             .article:nth-of-type(2), .article:nth-of-type(4) {
                 .animation-rectangle {
-                    position: absolute;
-                    right: 4vw;
+                    right: 7vw;
+                }
+
+                .animation-cube {
+                    left: -25vw;
                 }
             }
         }
-
     }
 }
-
-/*@media screen and (min-width:768px) {
-    .futur {
-        h1, h6 {
-            margin: 10px 0;
-        }
-
-        p {
-            font-size: 24px;
-        }
-
-        .futur1 {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            margin-top: 100px;
-            margin-bottom: 25vh;
-
-            .article {
-                display: flex;
-                flex-direction: column;
-            }
-        }
-
-        .futur2 {
-            display: flex;
-            flex-direction: row-reverse;
-            justify-content: space-around;
-            margin-top: 100px;
-            margin-bottom: 25vh;
-        }
-
-        .info_ate, .info_programme {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-            text-align: left;
-            width: 40vw;
-            margin-left: 11vw;
-        }
-
-        .info_étude, .info_entreprise {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-            text-align: left;
-            width: 40vw;
-            margin-right: 10vw; 
-            margin-left: auto;
-        }
-
-        
-
-        .animation-rectangle2 {
-            position: absolute;
-            right: 5vw;
-        }
-
-
-        .cube1 {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-        }
-        
-        .cube2 {
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .animation-cube {
-            display: flex;
-            margin: auto;
-        }
-        
-        .cube-deco1 {
-            height: 25rem;
-            width: 25rem;
-            border: solid 1px #2274A5;
-        }
-        
-        .cube-deco2 {
-            height: 12.5rem;
-            width: 12.5rem;
-            border: solid 1px #2274A5;
-            margin-top: 20px;
-        }
-        
-        .cube-deco3 {
-            height: 12.5rem;
-            width: 12.5rem;
-            border: solid 1px #2274A5;
-            margin-left: 20px;
-        }
-        
-        .cube-deco4 {
-            height: 25rem;
-            width: 25rem;
-            border: solid 1px #2274A5;
-            margin-top: 20px;
-            margin-left: 20px;
-        }
-    }
-}*/
