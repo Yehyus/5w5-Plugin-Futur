@@ -163,7 +163,7 @@
                     .animation-rectangle {
                         top: auto;
                         position: absolute;
-                        right: 112vw;
+                        right: 109vw;
 
                         .rectangle-deco1 {
                             height: 40rem;
@@ -217,7 +217,7 @@
                     position: relative;
                     display: flex;
                     margin-top: 60px;
-                    left: 25vw;
+                    left: 30vw;
 
                     .cube1 {
                         display: flex;
@@ -262,11 +262,11 @@
 
             .article:nth-of-type(2), .article:nth-of-type(4) {
                 .animation-rectangle {
-                    right: 7vw;
+                    right: 5vw;
                 }
 
                 .animation-cube {
-                    left: -25vw;
+                    left: -30vw;
                 }
             }
         }
