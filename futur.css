@@ -129,9 +129,293 @@
         }
     }
 }
+@media screen and (min-width: 576px) { }
 
+@media screen and (min-width: 768px) { }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 992px) { }
+
+@media screen and (min-width: 1200px) {
+    .futur {
+        & h2 {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        .wp-block-heading{
+            font-size: 30px;
+            color: #C4E7D4;
+        }
+
+        & p, li {
+            font-size: 1rem;
+        }
+
+        .futur1 {
+            .article {
+                margin-bottom: 20vh;
+                .content {
+                    position: absolute;
+                    left: 12vw;
+                    width: 30%;
+                }
+
+                    .animation-rectangle {
+                        position: absolute;
+                        right: 111vw;
+
+                        .rectangle-deco1 {
+                            height: 25rem;
+                            width: 10rem;
+                            border: solid 5px #C4E7D4;
+                            position: absolute;
+                        }
+                        
+                        .rectangle-deco2 {
+                            height: 25rem;
+                            width: 10rem;
+                            border: solid 5px #C4E7D4;
+                            opacity: 80%;
+                            position: absolute;
+                            margin-top: 10px;
+                            margin-left: 10px;
+                        }
+                        
+                        .rectangle-deco3 {
+                            height: 25rem;
+                            width: 10rem;
+                            border: solid 5px #C4E7D4;
+                            opacity: 60%;
+                            position: absolute;
+                            margin-top: 20px;
+                            margin-left: 20px;
+                        }
+                        
+                        .rectangle-deco4 {
+                            height: 25rem;
+                            width: 10rem;       
+                            border: solid 5px #C4E7D4;
+                            opacity: 40%;
+                            position: absolute;
+                            margin-top: 30px;
+                            margin-left: 30px;
+                        }
+                        
+                        .rectangle-deco5 {
+                            height: 25rem;
+                            width: 10rem;
+                            border: solid 5px #C4E7D4;
+                            opacity: 20%;
+                            position: absolute;
+                            margin-top: 40px;
+                            margin-left: 40px;
+                        }
+                    }
+
+                    .animation-cube {
+                        display: flex;
+                        position: relative;
+                        left: 10vw;
+
+                        .cube1 {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-end;
+                        }
+                        
+                        .cube2 {
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        
+                        .cube-deco1 {
+                            height: 10rem;
+                            width: 10rem;
+                            border: solid 1px #2274A5;
+                        }
+                        
+                        .cube-deco2 {
+                            height: 7rem;
+                            width: 7rem;
+                            border: solid 1px #2274A5;
+                            margin-top: 20px;
+                        }
+                        
+                        .cube-deco3 {
+                            height: 7rem;
+                            width: 7rem;
+                            border: solid 1px #2274A5;
+                            margin-left: 20px;
+                        }
+                        
+                        .cube-deco4 {
+                            height: 10rem;
+                            width: 10rem;
+                            border: solid 1px #2274A5;
+                            margin-top: 20px;
+                            margin-left: 20px;
+                        }
+                    }
+                }
+                
+                .article:nth-of-type(2), .article:nth-of-type(4) {
+                    .animation-rectangle {
+                        right: 9vw;
+                    }
+    
+                    .animation-cube {
+                        left: -30vw;
+                    }
+    
+                    .content {
+                        left: 50vw;
+                    }
+                }
+        }
+    }
+}
+
+@media screen and (min-width: 1500px) { 
+    .futur {
+        & h2 {
+            margin: 10px 0;
+            font-size: 24px;
+        }
+
+        .wp-block-heading{
+            font-size: 40px;
+            color: #C4E7D4;
+        }
+
+        & p, li {
+            font-size: 1.2rem;
+        }
+
+        .futur1 {
+            .article {
+                margin-bottom: 20vh;
+                .content {
+                    position: absolute;
+                    left: 15vw;
+                    width: 30%;
+                }
+
+                    .animation-rectangle {
+                        position: absolute;
+                        right: 111vw;
+
+                        .rectangle-deco1 {
+                            height: 30rem;
+                            width: 15rem;
+                            border: solid 5px #C4E7D4;
+                            position: absolute;
+                        }
+                        
+                        .rectangle-deco2 {
+                            height: 30rem;
+                            width: 15rem;
+                            border: solid 5px #C4E7D4;
+                            opacity: 80%;
+                            position: absolute;
+                            margin-top: 10px;
+                            margin-left: 10px;
+                        }
+                        
+                        .rectangle-deco3 {
+                            height: 30rem;
+                            width: 15rem;
+                            border: solid 5px #C4E7D4;
+                            opacity: 60%;
+                            position: absolute;
+                            margin-top: 20px;
+                            margin-left: 20px;
+                        }
+                        
+                        .rectangle-deco4 {
+                            height: 30rem;
+                            width: 15rem;
+                            border: solid 5px #C4E7D4;
+                            opacity: 40%;
+                            position: absolute;
+                            margin-top: 30px;
+                            margin-left: 30px;
+                        }
+                        
+                        .rectangle-deco5 {
+                            height: 30rem;
+                            width: 15rem;
+                            border: solid 5px #C4E7D4;
+                            opacity: 20%;
+                            position: absolute;
+                            margin-top: 40px;
+                            margin-left: 40px;
+                        }
+                    }
+
+                    .animation-cube {
+                        display: flex;
+                        position: relative;
+                        left: 23vw;
+
+                        .cube1 {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-end;
+                        }
+                        
+                        .cube2 {
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        
+                        .cube-deco1 {
+                            height: 15rem;
+                            width: 15rem;
+                            border: solid 1px #2274A5;
+                        }
+                        
+                        .cube-deco2 {
+                            height: 9rem;
+                            width: 9rem;
+                            border: solid 1px #2274A5;
+                            margin-top: 20px;
+                        }
+                        
+                        .cube-deco3 {
+                            height: 9rem;
+                            width: 9rem;
+                            border: solid 1px #2274A5;
+                            margin-left: 20px;
+                        }
+                        
+                        .cube-deco4 {
+                            height: 15rem;
+                            width: 15rem;
+                            border: solid 1px #2274A5;
+                            margin-top: 20px;
+                            margin-left: 20px;
+                        }
+                    }
+                }
+                
+                .article:nth-of-type(2), .article:nth-of-type(4) {
+                    .animation-rectangle {
+                        right: 9vw;
+                    }
+    
+                    .animation-cube {
+                        left: -30vw;
+                    }
+    
+                    .content {
+                        left: 50vw;
+                    }
+                }
+        }
+    }
+}
+
+@media screen and (min-width: 2000px) {
     .futur {
         & h2 {
             margin: 10px 0;
@@ -157,62 +441,63 @@
             .article {
                 margin-bottom: 30vh;
 
-                .content {
-                    position: absolute;
-                    left: 15vw;
-                    width: 30%;
-                }
-                    .animation-rectangle {
+                    .content {
                         position: absolute;
-                        right: 109vw;
-
-                        .rectangle-deco1 {
-                            height: 40rem;
-                            width: 20rem;
-                            border: solid 5px #C4E7D4;
-                            position: absolute;
-                        }
-                        
-                        .rectangle-deco2 {
-                            height: 40rem;
-                            width: 20rem;
-                            border: solid 5px #C4E7D4;
-                            opacity: 80%;
-                            position: absolute;
-                            margin-top: 10px;
-                            margin-left: 10px;
-                        }
-                        
-                        .rectangle-deco3 {
-                            height: 40rem;
-                            width: 20rem;
-                            border: solid 5px #C4E7D4;
-                            opacity: 60%;
-                            position: absolute;
-                            margin-top: 20px;
-                            margin-left: 20px;
-                        }
-                        
-                        .rectangle-deco4 {
-                            height: 40rem;
-                            width: 20rem;
-                            border: solid 5px #C4E7D4;
-                            opacity: 40%;
-                            position: absolute;
-                            margin-top: 30px;
-                            margin-left: 30px;
-                        }
-                        
-                        .rectangle-deco5 {
-                            height: 40rem;
-                            width: 20rem;
-                            border: solid 5px #C4E7D4;
-                            opacity: 20%;
-                            position: absolute;
-                            margin-top: 40px;
-                            margin-left: 40px;
-                        }
+                        left: 15vw;
+                        width: 30%;
                     }
+
+                        .animation-rectangle {
+                            position: absolute;
+                            right: 109vw;
+
+                            .rectangle-deco1 {
+                                height: 40rem;
+                                width: 20rem;
+                                border: solid 5px #C4E7D4;
+                                position: absolute;
+                            }
+                            
+                            .rectangle-deco2 {
+                                height: 40rem;
+                                width: 20rem;
+                                border: solid 5px #C4E7D4;
+                                opacity: 80%;
+                                position: absolute;
+                                margin-top: 10px;
+                                margin-left: 10px;
+                            }
+                            
+                            .rectangle-deco3 {
+                                height: 40rem;
+                                width: 20rem;
+                                border: solid 5px #C4E7D4;
+                                opacity: 60%;
+                                position: absolute;
+                                margin-top: 20px;
+                                margin-left: 20px;
+                            }
+                            
+                            .rectangle-deco4 {
+                                height: 40rem;
+                                width: 20rem;
+                                border: solid 5px #C4E7D4;
+                                opacity: 40%;
+                                position: absolute;
+                                margin-top: 30px;
+                                margin-left: 30px;
+                            }
+                            
+                            .rectangle-deco5 {
+                                height: 40rem;
+                                width: 20rem;
+                                border: solid 5px #C4E7D4;
+                                opacity: 20%;
+                                position: absolute;
+                                margin-top: 40px;
+                                margin-left: 40px;
+                            }
+                        }
 
                 .animation-cube {
                     display: flex;
@@ -267,6 +552,10 @@
 
                 .animation-cube {
                     left: -30vw;
+                }
+
+                .content {
+                    left: 50vw;
                 }
             }
         }
