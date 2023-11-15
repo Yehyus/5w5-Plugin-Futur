@@ -58,8 +58,8 @@
               <div class='rectangle-deco4'></div>
               <div class='rectangle-deco5'></div>
             </div>
-            <h2>${article.title.rendered}</h6>
-            <p>${article.content.rendered}</p>
+            <div class='content'><h2>${article.title.rendered}</h2>
+            <p>${article.content.rendered}</p></div>
             <div class='animation-cube'>
               <div class='cube1'>
                   <div class='cube-deco1'></div>

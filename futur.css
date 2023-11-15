@@ -135,16 +135,16 @@
     .futur {
         & h2 {
             margin: 10px 0;
-            font-size: 24px;
+            font-size: 32px;
         }
 
         .wp-block-heading{
-            font-size: 40px;
+            font-size: 50px;
             color: #C4E7D4;
         }
 
-        & p {
-            font-size: 1rem;
+        & p, li {
+            font-size: 1.5rem;
         }
 
         .futur1 {
@@ -155,13 +155,14 @@
             margin-bottom: 25vh;
 
             .article {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-around;
                 margin-bottom: 30vh;
 
+                .content {
+                    position: absolute;
+                    left: 15vw;
+                    width: 30%;
+                }
                     .animation-rectangle {
-                        top: auto;
                         position: absolute;
                         right: 109vw;
 
@@ -214,10 +215,9 @@
                     }
 
                 .animation-cube {
-                    position: relative;
                     display: flex;
-                    margin-top: 60px;
-                    left: 30vw;
+                    position: relative;
+                    left: 25vw;
 
                     .cube1 {
                         display: flex;
