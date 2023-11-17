@@ -1,26 +1,37 @@
 .futur {
-    & h1 {
-        font-size: 25px;
-        color: #C4E7D4;
-        font-family: 'Work Sans', sans-serif;
+    & h2 {
+        margin: 10px 0;
+        font-size: 16px;
     }
 
-    & p {
-        font-size: 9px;
+    .wp-block-heading{
+        font-size: 30px;
+        color: #C4E7D4;
+    }
+
+    & p, li {
+        font-size: 13.5px;
     }
 
     .futur1 {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        align-items: center;
         margin-top: 20px;
         margin-bottom: 10vh;
         
         .article {
+            .content {
+                width: 42%;
+                position: relative;
+                left: 25vw;
+                margin-bottom: 3vh;
+            }
 
             .animation-rectangle {
-            top: auto;
-            right: 109vw;
+                top: auto;
+                right: 109vw;
             }
 
             .animation-rectangle2 {
@@ -75,12 +86,11 @@
                     }
             }
 
-            
-
             .animation-cube {
                 display: flex;
                 justify-content: center;
                 top: 20px;
+                margin-bottom: 3vh;
             }
 
             .cube1 {
@@ -89,57 +99,157 @@
                 align-items: flex-end;
             }
 
-            .cube2 {
-                display: flex;
-                flex-direction: column;
-            }
-
-            .animation-cube {
-                display: flex;
-                margin: auto;
-            }
-
             .cube-deco1 {
-                height: 5rem;
-                width: 5rem;
+                height: 8rem;
+                width: 8rem;
                 border: solid 1px #2274A5;
             }
 
             .cube-deco2 {
-                height: 2.5rem;
-                width: 2.5rem;
-                border: solid 1px #2274A5;
-                margin-top: 10px;
+                display: none;
             }
 
             .cube-deco3 {
-                height: 2.5rem;
-                width: 2.5rem;
-                border: solid 1px #2274A5;
-                margin-left: 10px;
+                display: none;
             }
 
             .cube-deco4 {
-                height: 5rem;
-                width: 5rem;
-                border: solid 1px #2274A5;
-                margin-top: 10px;
-                margin-left: 10px;
+                display: none;
             }
         }
     }
 }
-@media screen and (min-width: 576px) { }
 
-@media screen and (min-width: 768px) { }
-
-@media screen and (min-width: 992px) { }
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 576px) { 
     .futur {
         & h2 {
             margin: 10px 0;
             font-size: 18px;
+        }
+    
+        .wp-block-heading{
+            font-size: 32px;
+            color: #C4E7D4;
+        }
+    
+        & p, li {
+            font-size: 15px;
+        }
+    
+        .futur1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;
+            margin-bottom: 10vh;
+            
+            .article {
+                .content {
+                    width: 50%;
+                    position: relative;
+                    left: 25vw;
+                    margin-bottom: 3vh;
+                }
+    
+                .animation-rectangle {
+                    top: auto;
+                    position: relative;
+                    right: 109vw;
+                }
+    
+                .animation-rectangle2 {
+                    position: absolute;
+                    right: 10vw;
+    
+                        .rectangle-deco1 {
+                            height: 15rem;
+                            width: 7.5rem;
+                            border: solid 2px #C4E7D4;
+                            position: absolute;
+                        }
+            
+                        .rectangle-deco2 {
+                            height: 15rem;
+                            width: 7.5rem;
+                            border: solid 2px #C4E7D4;
+                            opacity: 80%;
+                            position: absolute;
+                            margin-top: 5px;
+                            margin-left: 5px;
+                        }
+            
+                        .rectangle-deco3 {
+                            height: 15rem;
+                            width: 7.5rem;
+                            border: solid 2px #C4E7D4;
+                            opacity: 60%;
+                            position: absolute;
+                            margin-top: 10px;
+                            margin-left: 10px;
+                        }
+            
+                        .rectangle-deco4 {
+                            height: 15rem;
+                            width: 7.5rem;
+                            border: solid 2px #C4E7D4;
+                            opacity: 40%;
+                            position: absolute;
+                            margin-top: 15px;
+                            margin-left: 15px;
+                        }
+            
+                        .rectangle-deco5 {
+                            height: 15rem;
+                            width: 7.5rem;
+                            border: solid 2px #C4E7D4;
+                            opacity: 20%;
+                            position: absolute;
+                            margin-top: 20px;
+                            margin-left: 20px;
+                        }
+                }
+    
+                .animation-cube {
+                    display: flex;
+                    justify-content: center;
+                    top: 20px;
+                    margin-bottom: 3vh;
+                }
+    
+                .cube1 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                }
+    
+                .cube-deco1 {
+                    height: 8rem;
+                    width: 8rem;
+                    border: solid 1px #2274A5;
+                }
+    
+                .cube-deco2 {
+                    display: none;
+                }
+    
+                .cube-deco3 {
+                    display: none;
+                }
+    
+                .cube-deco4 {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) { 
+    .futur {
+        & h2 {
+            margin: 10px 0;
+            font-size: 16px;
         }
 
         .wp-block-heading{
@@ -148,7 +258,7 @@
         }
 
         & p, li {
-            font-size: 1rem;
+            font-size: 13.5px;
         }
 
         .futur1 {
@@ -156,13 +266,251 @@
                 margin-bottom: 20vh;
                 .content {
                     position: absolute;
-                    left: 12vw;
+                    left: 20vw;
+                    width: 35%;
+                }
+
+                    .animation-rectangle {
+                        position: absolute;
+                        right: 107vw;
+
+                        .rectangle-deco1 {
+                            height: 20rem;
+                            width: 7rem;
+                            border: solid 5px #C4E7D4;
+                            position: absolute;
+                        }
+                        
+                        .rectangle-deco2 {
+                            height: 20rem;
+                            width: 7rem;
+                            border: solid 5px #C4E7D4;
+                            opacity: 80%;
+                            position: absolute;
+                            margin-top: 10px;
+                            margin-left: 10px;
+                        }
+                        
+                        .rectangle-deco3 {
+                            height: 20rem;
+                            width: 7rem;
+                            border: solid 5px #C4E7D4;
+                            opacity: 60%;
+                            position: absolute;
+                            margin-top: 20px;
+                            margin-left: 20px;
+                        }
+                        
+                        .rectangle-deco4 {
+                            height: 20rem;
+                            width: 7rem;      
+                            border: solid 5px #C4E7D4;
+                            opacity: 40%;
+                            position: absolute;
+                            margin-top: 30px;
+                            margin-left: 30px;
+                        }
+                        
+                        .rectangle-deco5 {
+                            height: 20rem;
+                            width: 7rem;
+                            border: solid 5px #C4E7D4;
+                            opacity: 20%;
+                            position: absolute;
+                            margin-top: 40px;
+                            margin-left: 40px;
+                        }
+                    }
+
+                    .animation-cube {
+                        display: flex;
+                        position: relative;
+                        left: 28vw;
+
+                        .cube-deco1 {
+                            height: 16rem;
+                            width: 16rem;
+                            border: solid 1px #2274A5;
+                        }
+                        
+                        .cube-deco2 {
+                            display: none;
+                        }
+                        
+                        .cube-deco3 {
+                            display: none;
+                        }
+                        
+                        .cube-deco4 {
+                            display: none;
+                        }
+                    }
+                }
+                
+                .article:nth-of-type(2), .article:nth-of-type(4) {
+                    .animation-rectangle {
+                        right: 8vw;
+                    }
+    
+                    .animation-cube {
+                        left: -30vw;
+                    }
+    
+                    .content {
+                        left: 48vw;
+                    }
+                }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) { 
+    .futur {
+        & h2 {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        .wp-block-heading{
+            font-size: 32px;
+            color: #C4E7D4;
+        }
+
+        & p, li {
+            font-size: 15px;
+        }
+
+        .futur1 {
+            .article {
+                margin-bottom: 20vh;
+                .content {
+                    position: absolute;
+                    left: 20vw;
                     width: 30%;
                 }
 
                     .animation-rectangle {
                         position: absolute;
-                        right: 111vw;
+                        right: 105vw;
+
+                        .rectangle-deco1 {
+                            height: 20rem;
+                            width: 7rem;
+                            border: solid 5px #C4E7D4;
+                            position: absolute;
+                        }
+                        
+                        .rectangle-deco2 {
+                            height: 20rem;
+                            width: 7rem;
+                            border: solid 5px #C4E7D4;
+                            opacity: 80%;
+                            position: absolute;
+                            margin-top: 10px;
+                            margin-left: 10px;
+                        }
+                        
+                        .rectangle-deco3 {
+                            height: 20rem;
+                            width: 7rem;
+                            border: solid 5px #C4E7D4;
+                            opacity: 60%;
+                            position: absolute;
+                            margin-top: 20px;
+                            margin-left: 20px;
+                        }
+                        
+                        .rectangle-deco4 {
+                            height: 20rem;
+                            width: 7rem;      
+                            border: solid 5px #C4E7D4;
+                            opacity: 40%;
+                            position: absolute;
+                            margin-top: 30px;
+                            margin-left: 30px;
+                        }
+                        
+                        .rectangle-deco5 {
+                            height: 20rem;
+                            width: 7rem;
+                            border: solid 5px #C4E7D4;
+                            opacity: 20%;
+                            position: absolute;
+                            margin-top: 40px;
+                            margin-left: 40px;
+                        }
+                    }
+
+                    .animation-cube {
+                        display: flex;
+                        position: relative;
+                        left: 25vw;
+
+                        .cube-deco1 {
+                            height: 20rem;
+                            width: 20rem;
+                            border: solid 1px #2274A5;
+                        }
+                        
+                        .cube-deco2 {
+                            display: none;
+                        }
+                        
+                        .cube-deco3 {
+                            display: none;
+                        }
+                        
+                        .cube-deco4 {
+                            display: none;
+                        }
+                    }
+                }
+                
+                .article:nth-of-type(2), .article:nth-of-type(4) {
+                    .animation-rectangle {
+                        right: 7vw;
+                    }
+    
+                    .animation-cube {
+                        left: -30vw;
+                    }
+    
+                    .content {
+                        left: 50vw;
+                    }
+                }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .futur {
+        & h2 {
+            margin: 10px 0;
+            font-size: 20px;
+        }
+
+        .wp-block-heading{
+            font-size: 40px;
+            color: #C4E7D4;
+        }
+
+        & p, li {
+            font-size: 1.1rem;
+        }
+
+        .futur1 {
+            .article {
+                margin-bottom: 20vh;
+                .content {
+                    position: absolute;
+                    left: 20vw;
+                    width: 30%;
+                }
+
+                    .animation-rectangle {
+                        position: absolute;
+                        right: 107vw;
 
                         .rectangle-deco1 {
                             height: 25rem;
@@ -215,7 +563,7 @@
                     .animation-cube {
                         display: flex;
                         position: relative;
-                        left: 10vw;
+                        left: 25vw;
 
                         .cube1 {
                             display: flex;
@@ -229,28 +577,31 @@
                         }
                         
                         .cube-deco1 {
-                            height: 10rem;
-                            width: 10rem;
+                            height: 13rem;
+                            width: 13rem;
                             border: solid 1px #2274A5;
                         }
                         
                         .cube-deco2 {
-                            height: 7rem;
-                            width: 7rem;
+                            display: flex;
+                            height: 9rem;
+                            width: 9rem;
                             border: solid 1px #2274A5;
                             margin-top: 20px;
                         }
                         
                         .cube-deco3 {
-                            height: 7rem;
-                            width: 7rem;
+                            display: flex;
+                            height: 9rem;
+                            width: 9rem;
                             border: solid 1px #2274A5;
                             margin-left: 20px;
                         }
                         
                         .cube-deco4 {
-                            height: 10rem;
-                            width: 10rem;
+                            display: flex;
+                            height: 13rem;
+                            width: 13rem;
                             border: solid 1px #2274A5;
                             margin-top: 20px;
                             margin-left: 20px;
@@ -260,7 +611,7 @@
                 
                 .article:nth-of-type(2), .article:nth-of-type(4) {
                     .animation-rectangle {
-                        right: 9vw;
+                        right: 7vw;
                     }
     
                     .animation-cube {
@@ -302,7 +653,7 @@
 
                     .animation-rectangle {
                         position: absolute;
-                        right: 111vw;
+                        right: 110vw;
 
                         .rectangle-deco1 {
                             height: 30rem;
@@ -369,28 +720,31 @@
                         }
                         
                         .cube-deco1 {
-                            height: 15rem;
-                            width: 15rem;
+                            height: 17rem;
+                            width: 17rem;
                             border: solid 1px #2274A5;
                         }
                         
                         .cube-deco2 {
-                            height: 9rem;
-                            width: 9rem;
+                            display: flex;
+                            height: 11rem;
+                            width: 11rem;
                             border: solid 1px #2274A5;
                             margin-top: 20px;
                         }
                         
                         .cube-deco3 {
-                            height: 9rem;
-                            width: 9rem;
+                            display: flex;
+                            height: 11rem;
+                            width: 11rem;
                             border: solid 1px #2274A5;
                             margin-left: 20px;
                         }
                         
                         .cube-deco4 {
-                            height: 15rem;
-                            width: 15rem;
+                            display: flex;
+                            height: 17rem;
+                            width: 17rem;
                             border: solid 1px #2274A5;
                             margin-top: 20px;
                             margin-left: 20px;
@@ -400,7 +754,7 @@
                 
                 .article:nth-of-type(2), .article:nth-of-type(4) {
                     .animation-rectangle {
-                        right: 9vw;
+                        right: 7vw;
                     }
     
                     .animation-cube {
@@ -423,7 +777,7 @@
         }
 
         .wp-block-heading{
-            font-size: 50px;
+            font-size: 60px;
             color: #C4E7D4;
         }
 
@@ -516,26 +870,30 @@
                     }
                     
                     .cube-deco1 {
+                        display: flex;
                         height: 25rem;
                         width: 25rem;
                         border: solid 1px #2274A5;
                     }
                     
                     .cube-deco2 {
-                        height: 12.5rem;
-                        width: 12.5rem;
+                        display: flex;
+                        height: 15rem;
+                        width: 15rem;
                         border: solid 1px #2274A5;
                         margin-top: 20px;
                     }
                     
                     .cube-deco3 {
-                        height: 12.5rem;
-                        width: 12.5rem;
+                        display: flex;
+                        height: 15rem;
+                        width: 15rem;
                         border: solid 1px #2274A5;
                         margin-left: 20px;
                     }
                     
                     .cube-deco4 {
+                        display: flex;
                         height: 25rem;
                         width: 25rem;
                         border: solid 1px #2274A5;
