@@ -759,7 +759,7 @@
     
                     .animation-cube {
                         left: -30vw;
-                    }
+                    }+
     
                     .content {
                         left: 50vw;
@@ -810,9 +810,6 @@
                                 width: 20rem;
                                 border: solid 5px #C4E7D4;
                                 position: absolute;
-                                animation-name: animation-pulse;
-                                animation-duration: 4s;
-                                animation-iteration-count: infinite;
                             }
                             
                             .rectangle-deco2 {
@@ -823,9 +820,6 @@
                                 position: absolute;
                                 margin-top: 10px;
                                 margin-left: 10px;
-                                animation-name: animation-pulse;
-                                animation-duration: 4s;
-                                animation-iteration-count: infinite;
                             }
                             
                             .rectangle-deco3 {
@@ -836,9 +830,6 @@
                                 position: absolute;
                                 margin-top: 20px;
                                 margin-left: 20px;
-                                animation-name: animation-pulse;
-                                animation-duration: 4s;
-                                animation-iteration-count: infinite;
                             }
                             
                             .rectangle-deco4 {
@@ -849,9 +840,6 @@
                                 position: absolute;
                                 margin-top: 30px;
                                 margin-left: 30px;
-                                animation-name: animation-pulse;
-                                animation-duration: 4s;
-                                animation-iteration-count: infinite;
                             }
                             
                             .rectangle-deco5 {
@@ -862,9 +850,6 @@
                                 position: absolute;
                                 margin-top: 40px;
                                 margin-left: 40px;
-                                animation-name: animation-pulse;
-                                animation-duration: 4s;
-                                animation-iteration-count: infinite;
                             }
                         }
 
@@ -932,21 +917,6 @@
                     left: 50vw;
                 }
             }
-        }
-    }
-    
-    @keyframes animation-pulse {
-        0% {
-            transform: translatex(0px) translatey(0px);
-        }
-
-        50% {
-            transform: translatex(10px) translatey(10px);
-            opacity: 0%;
-        }
-
-        100% {
-            opacity: 1;
         }
     }
 }
