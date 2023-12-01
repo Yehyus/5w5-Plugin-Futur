@@ -9,8 +9,14 @@
         color: #C4E7D4;
     }
 
+    & img {
+        width: 120%;
+    }
+
     & p, li {
         font-size: 13.5px;
+        width: 120%;
+        text-decoration: none;
     }
 
     .futur1 {
@@ -101,7 +107,7 @@
 
             .cube-deco1 {
                 height: 8rem;
-                width: 8rem;
+                width: 10rem;
                 border: solid 1px #2274A5;
             }
 
@@ -781,8 +787,14 @@
             color: #C4E7D4;
         }
 
+        & img {
+            width: 100%;
+            height: auto;
+        }
+
         & p, li {
             font-size: 1.5rem;
+            text-decoration: none;
         }
 
         .futur1 {
@@ -793,6 +805,7 @@
             margin-bottom: 25vh;
 
             .article {
+                
                 margin-bottom: 30vh;
 
                     .content {
@@ -870,6 +883,8 @@
                     }
                     
                     .cube-deco1 {
+                        background-image: url("http://localhost:8080/5w5/wp-content/uploads/2023/12/1.jpg");
+                        background-size: cover;
                         display: flex;
                         height: 25rem;
                         width: 25rem;
@@ -877,6 +892,8 @@
                     }
                     
                     .cube-deco2 {
+                        background-image: url("http://localhost:8080/5w5/wp-content/uploads/2023/12/2.jpg");
+                        background-size: cover;
                         display: flex;
                         height: 15rem;
                         width: 15rem;
@@ -885,6 +902,8 @@
                     }
                     
                     .cube-deco3 {
+                        background-image: url("http://localhost:8080/5w5/wp-content/uploads/2023/12/3.jpg");
+                        background-size: cover;
                         display: flex;
                         height: 15rem;
                         width: 15rem;
@@ -893,6 +912,8 @@
                     }
                     
                     .cube-deco4 {
+                        background-image: url("http://localhost:8080/5w5/wp-content/uploads/2023/12/4.jpg");
+                        background-size: cover;
                         display: flex;
                         height: 25rem;
                         width: 25rem;
@@ -915,6 +936,30 @@
 
                 .content {
                     left: 50vw;
+                }
+
+                .cube-deco1 {
+                    background-image: url("http://localhost:8080/5w5/wp-content/uploads/2023/12/5.jpg");
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                .cube-deco2{
+                    background-image: url("http://localhost:8080/5w5/wp-content/uploads/2023/12/6.jpg");
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                .cube-deco3{
+                    background-image: url("http://localhost:8080/5w5/wp-content/uploads/2023/12/7.png");
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                .cube-deco4{
+                    background-image: url("http://localhost:8080/5w5/wp-content/uploads/2023/12/8.jpg");
+                    background-size: cover;
+                    background-position: center;
                 }
             }
         }

@@ -47,6 +47,6 @@ function creation_futur(){
     </section>";
     return $contenu;
 }
-
 add_shortcode('em_futur', 'creation_futur');
 ?>
+<?php echo wp_get_attachment_image( 10, 'medium'); ?>
