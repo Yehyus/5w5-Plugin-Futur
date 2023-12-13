@@ -106,6 +106,9 @@
             }
 
             .cube-deco1 {
+                background-image: url("http://localhost:8080/5w5/wp-content/uploads/2023/12/5.jpg");
+                background-size: cover;
+                background-position: center;
                 height: 8rem;
                 width: 10rem;
                 border: solid 1px #2274A5;
@@ -365,6 +368,12 @@
                     .content {
                         left: 48vw;
                     }
+
+                    .cube-deco1 {
+                        background-image: url("http://localhost:8080/5w5/wp-content/uploads/2023/12/5.jpg");
+                        background-size: cover;
+                        background-position: center;
+                    }
                 }
         }
     }
@@ -483,6 +492,12 @@
     
                     .content {
                         left: 50vw;
+                    }
+
+                    .cube-deco1 {
+                        background-image: url("http://localhost:8080/5w5/wp-content/uploads/2023/12/5.jpg");
+                        background-size: cover;
+                        background-position: center;
                     }
                 }
         }
@@ -626,6 +641,30 @@
     
                     .content {
                         left: 50vw;
+                    }
+
+                    .cube-deco1 {
+                        background-image: url("http://localhost:8080/5w5/wp-content/uploads/2023/12/5.jpg");
+                        background-size: cover;
+                        background-position: center;
+                    }
+    
+                    .cube-deco2{
+                        background-image: url("http://localhost:8080/5w5/wp-content/uploads/2023/12/6.jpg");
+                        background-size: cover;
+                        background-position: center;
+                    }
+    
+                    .cube-deco3{
+                        background-image: url("http://localhost:8080/5w5/wp-content/uploads/2023/12/7.png");
+                        background-size: cover;
+                        background-position: center;
+                    }
+    
+                    .cube-deco4{
+                        background-image: url("http://localhost:8080/5w5/wp-content/uploads/2023/12/8.jpg");
+                        background-size: cover;
+                        background-position: center;
                     }
                 }
         }
@@ -781,27 +820,36 @@
     
                     .animation-cube {
                         left: -30vw;
-                    }+
+                    }
     
                     .content {
                         left: 50vw;
                     }
+                    
+                    .cube-deco1 {
+                        background-image: url("http://localhost:8080/5w5/wp-content/uploads/2023/12/5.jpg");
+                        background-size: cover;
+                        background-position: center;
+                    }
+    
+                    .cube-deco2{
+                        background-image: url("http://localhost:8080/5w5/wp-content/uploads/2023/12/6.jpg");
+                        background-size: cover;
+                        background-position: center;
+                    }
+    
+                    .cube-deco3{
+                        background-image: url("http://localhost:8080/5w5/wp-content/uploads/2023/12/7.png");
+                        background-size: cover;
+                        background-position: center;
+                    }
+    
+                    .cube-deco4{
+                        background-image: url("http://localhost:8080/5w5/wp-content/uploads/2023/12/8.jpg");
+                        background-size: cover;
+                        background-position: center;
+                    }
                 }
-        }
-    }
-
-    @keyframes animation-pulse {
-        0% {
-            transform: translatex(0px) translatey(0px);
-        }
-
-        50% {
-            transform: translatex(10px) translatey(10px);
-            opacity: 0%;
-        }
-
-        100% {
-            opacity: 1;
         }
     }
 }
